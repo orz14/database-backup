@@ -1,6 +1,6 @@
 <?php
 
-define('DB_HOST', '127.0.0.1');
+define('DB_HOST', 'localhost');
 define('DB_USERNAME', 'root');
 define('DB_PASSWORD', '');
-define('OUTPUT', 'D:/backupDatabase/');
+define('OUTPUT', 'D:/XAMPP-Backup/database/');  // diakhiri dengan slash " / "
