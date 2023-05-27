@@ -8,7 +8,7 @@
 git clone https://github.com/orz14/database-backup.git backup
 ```
 
-- Modify File Config in -> services/config.php
+- Modify Config File in -> services/config.php
 
 ```bash
 define('DB_HOST', 'localhost');  # database host
