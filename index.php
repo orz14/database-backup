@@ -1,12 +1,12 @@
 <?php
-require_once 'functions.php';
+require_once 'services/functions.php';
 $databases = query("SHOW DATABASES");
 if (isset($_POST['backup'])) {
     if (isset($_POST['db_name'])) {
         backup($_POST['db_name']);
         $status = "<span style='font-weight: 600; color: green'>backup success.</span>";
     } else {
-        $status = "<span style='font-weight: 600; color: red'>backup failed.</span>";
+        $status = "<span style='font-weight: 600; color: red'>select database.</span>";
     }
 }
 ?>
@@ -31,4 +31,4 @@ if (isset($_POST['backup'])) {
     </div>
 </form>
 
-<script src="scripts.js"></script>
+<script src="services/scripts.js"></script>
